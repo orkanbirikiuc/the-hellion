@@ -3,7 +3,7 @@ import requests
 import re
 from gtts import gTTS
 
-# import logging
+# import loggins
 
 # logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 #                     level=logging.INFO)
