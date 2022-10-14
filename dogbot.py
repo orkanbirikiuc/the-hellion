@@ -17,7 +17,6 @@ def start(update, context):
 
 
 def bop(update, context):
-    url = get_image_url()
     chat_id = update.message.chat_id
     context.bot.message(chat_id=chat_id, text="selam")
 
