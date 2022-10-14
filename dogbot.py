@@ -18,7 +18,7 @@ def start(update, context):
 
 def bop(update, context):
     chat_id = update.message.chat_id
-    context.bot.message(chat_id=chat_id, text="selam")
+    context.bot.send_message(chat_id=chat_id, text="selam")
 
 
 # mew for cat
